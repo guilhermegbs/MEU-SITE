@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="stylesheet" href="././css/index.css">
+        <link rel="stylesheet" href="././css/comoon.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/./css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="././css/footer.css">
+        <link rel="stylesheet" href="./css/formulario.css">
+        <link rel="stylesheet" href="./pages/formulario.html">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BikeCicle</title>
+    </head>
+<body>
+    <header>
+        <div id="LogoBike">
+            <img src="./assets/Lyn 2.png" alt="Logo da Bike" class="logo-img">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Agendar</a></li>
+                <li><a href="#">Sobre Nós</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="content first-content">
+            <div class="first-column">
+                <h2 class="title title-primary">Bem-vindo de volta!</h2>
+                <p class="description description-primary">Para continuar conectado conosco</p>
+                <p class="description description-primary">faça login com suas informações pessoais</p>
+                <button id="signin" class="btn btn-primary">Entrar</button>
+            </div>
+            <div class="second-column">
+                <h2 class="title title-second">Criar conta</h2>
+                <div class="social-media">
+                    <ul class="list-social-media">
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-facebook-f"></i>        
+                            </li>
+                        </a>
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-google-plus-g"></i>
+                            </li>
+                        </a>
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-linkedin-in"></i>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <p class="description description-second">ou use seu e-mail para se cadastrar:</p>
+                <form class="form">
+                    <label class="label-input" for="name">
+                        <i class="far fa-user icon-modify"></i>
+                        <input type="text" id="name" placeholder="Nome Completo" required>
+                    </label>
+
+                    <label class="label-input" for="email">
+                        <i class="far fa-envelope icon-modify"></i>
+                        <input type="email" id="email" placeholder="E-mail" required>
+                    </label>
+
+                    <label class="label-input" for="phone">
+                        <i class="fas fa-phone icon-modify"></i>
+                        <input type="tel" id="phone" placeholder="Telefone" required>
+                    </label>
+
+                    <label class="label-input" for="address">
+                        <i class="fas fa-map-marker-alt icon-modify"></i>
+                        <input type="text" id="address" placeholder="Endereço (Rua, Número, Bairro)" required>
+                    </label>
+
+                    <label class="label-input" for="city">
+                        <i class="fas fa-city icon-modify"></i>
+                        <input type="text" id="city" placeholder="Cidade" required>
+                    </label>
+
+                    <label class="label-input" for="state">
+                        <i class="fas fa-flag icon-modify"></i>
+                        <input type="text" id="state" placeholder="Estado" required>
+                    </label>
+
+                    <label class="label-input" for="zipcode">
+                        <i class="fas fa-mail-bulk icon-modify"></i>
+                        <input type="text" id="zipcode" placeholder="CEP" required>
+                    </label>
+
+                    <label class="label-input" for="password">
+                        <i class="fas fa-lock icon-modify"></i>
+                        <input type="password" id="password" placeholder="Senha" required>
+                    </label>
+
+                    <button type="submit" class="btn btn-second">Cadastrar</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="content second-content">
+            <div class="first-column">
+                <h2 class="title title-primary">Olá, amigo!</h2>
+                <p class="description description-primary">Digite seus dados pessoais</p>
+                <p class="description description-primary">e comece sua jornada conosco</p>
+                <button id="signup" class="btn btn-primary">Cadastrar</button>
+            </div>
+            <div class="second-column">
+                <h2 class="title title-second">Entrar no sistema</h2>
+                <div class="social-media">
+                    <ul class="list-social-media">
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-facebook-f"></i>
+                            </li>
+                        </a>
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-google-plus-g"></i>
+                            </li>
+                        </a>
+                        <a class="link-social-media" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-linkedin-in"></i>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <p class="description description-second">ou use sua conta de e-mail:</p>
+                <form class="form">
+                    <label class="label-input" for="login-email">
+                        <i class="far fa-envelope icon-modify"></i>
+                        <input type="email" id="login-email" placeholder="E-mail" required>
+                    </label>
+
+                    <label class="label-input" for="login-password">
+                        <i class="fas fa-lock icon-modify"></i>
+                        <input type="password" id="login-password" placeholder="Senha" required>
+                    </label>
+
+                    <a class="password" href="#">Esqueceu sua senha?</a>
+                    <button type="submit" class="btn btn-second">Entrar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <img src="./assets/Lyn 2.png" alt="Logo da Bike" class="logo-img">
+                <p>Bem Vindo a BikeCicle</p>
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
